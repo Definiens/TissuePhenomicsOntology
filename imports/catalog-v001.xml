@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://purl.obolibrary.org/obo/bfo.owl" uri="bfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://purl.obolibrary.org/obo/cl.owl" uri="climports/cl.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://purl.obolibrary.org/obo/cl/imports/chebi_import.owl" uri="climports/chebi_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://purl.obolibrary.org/obo/cl/imports/clo_import.owl" uri="climports/clo_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://purl.obolibrary.org/obo/cl/imports/go_import.owl" uri="climports/go_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://purl.obolibrary.org/obo/cl/imports/ncbitaxon_import.owl" uri="climports/ncbitaxon_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://purl.obolibrary.org/obo/cl/imports/pr_import.owl" uri="climports/pr_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://purl.obolibrary.org/obo/cl/imports/ro_import.owl" uri="climports/ro_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://purl.obolibrary.org/obo/cl/imports/uberon_import.owl" uri="climports/uberon_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/chebi_import.owl" uri="chebi_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/cl_import.owl" uri="cl_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/efo_disease_import.owl" uri="efo_disease_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/efo_import.owl" uri="efo_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/obi_import.owl" uri="obi_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/ogg_import.owl" uri="ogg_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/pato_import.owl" uri="pato_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/pr_import.owl" uri="pr_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/ro_import.owl" uri="ro_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/stato_import.owl" uri="stato_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/uberon_import.owl" uri="uberon_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1537794424355" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/uo_import.owl" uri="uo_import.owl"/>
+    </group>
+</catalog>

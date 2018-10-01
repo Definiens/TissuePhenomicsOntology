@@ -1,0 +1,44 @@
+# This sparql query was run agains a JENA server where the Cell Ontology (CL) and all its imports had been uploaded
+# The cell ontology was placed in the graph http://purl.obolibrary.org/obo/cl.ow
+# The Tissue Phenomics Ontology was placed in the graph http://www.definiens.com/ontologies/TissuePhenomicsOntology
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX tpo: <http://www.definiens.com/ontologies/TissuePhenomicsOntology>
+PREFIX cl: <http://purl.obolibrary.org/obo/cl.owl>
+PREFIX obocl: <http://purl.obolibrary.org/obo/cl#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX efo: <http://www.ebi.ac.uk/efo/efo.owl>
+CONSTRUCT
+{
+?protein rdfs:subClassOf ?parentProtein .
+}
+FROM named cl:
+FROM named tpo:
+WHERE {
+VALUES ?cellProp {obo:RO_0002104
+obocl:has_high_plasma_membrane_amount
+obocl:has_low_plasma_membrane_amount
+obocl:lacks_plasma_membrane_part} .
+VALUES ?parentProtProperty {
+rdfs:label
+rdfs:comment
+cl:hasExactSynonym
+cl:has_exact_synonym
+cl:definition
+} .
+graph cl:
+{
+?cell rdfs:subClassOf    ?x .
+?x owl:onProperty ?cellProp ;
+owl:someValuesFrom ?protein .
+?protein rdfs:subClassOf* ?parentProtein .
+?parentProtein rdfs:subClassOf* obo:PR_000000001 .
+?parentProtein ?parentProtProperty ?parentCellProteinPropValue .
+}
+graph tpo:
+{
+?cell rdfs:label ?cellLabel .
+}
+}

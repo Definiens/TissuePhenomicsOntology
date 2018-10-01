@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/chebi_import.owl#"
+     xml:base="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/chebi_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/chebi_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/charge"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchi"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchikey"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/mass"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/formula"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/monoisotopicmass"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/smiles"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37958 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37958">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dye</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:37958</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Farbstoff</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Farbstoffe</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colorante</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colorantes</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dyes</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teinture</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teintures</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39077">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eosin b</rdfs:label>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-(4,5-Dibromo-3,6-dihydroxy-2,7-dinitroxanthen-9-yl)-benzoic acid, disodium salt</oboInOwl:hasRelatedSynonym>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">503.839</chebi:monoisotopicmass>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">624.05726</chebi:mass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic sodium salt which is the disodium salt of eosin b diphenol.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C.I. 45400</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C.I. Acid Red 91</oboInOwl:hasRelatedSynonym>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C10H8Br2N2O9.2Na</chebi:formula>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:548-24-3</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:39077</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dibromodinitrofluorescein sodium</oboInOwl:hasRelatedSynonym>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C20H8Br2N2O9.2Na/c21-13-15(25)11(23(28)29)5-9-17(13)32-18-10(6-12(24(30)31)16(26)14(18)22)20(9)8-4-2-1-3-7(8)19(27)33-20;;/h1-6,25-26H;;/q;2*+1/p-2</chebi:inchi>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QGAYMQGSQUXCQO-UHFFFAOYSA-L</chebi:inchikey>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saffrosine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spiro(isobenzofuran-1(3H),9&#39;-(9H)xanthen)-3-one, 4&#39;,5&#39;-dibromo-3&#39;,6&#39;-dihydroxy-2&#39;,7&#39;-dinitro-, disodium salt</oboInOwl:hasRelatedSynonym>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Na+].[Na+].[O-]c1c(Br)c2Oc3c(Br)c([O-])c(cc3C3(OC(=O)c4ccccc34)c2cc1[N+]([O-])=O)[N+]([O-])=O</chebi:smiles>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acid red 91</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disodium 4&#39;,5&#39;-dibromo-2&#39;,7&#39;-dinitro-3-oxo-3H-spiro[2-benzofuran-1,9&#39;-xanthene]-3&#39;,6&#39;-diolate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eosin bluish</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imperial red</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51231">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DAPI</rdfs:label>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-(4-(aminoiminomethyl)phenyl)-1H-indole-6-carboximidamide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-(4-carbamimidoylphenyl)-1H-indole-6-carboximidamide</oboInOwl:hasExactSynonym>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">277.133</chebi:monoisotopicmass>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">277.32380</chebi:mass>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4&#39;,6-diamidino-2-phenylindole</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4&#39;,6-diamidinophenyl-indole</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:3557399</oboInOwl:hasDbXref>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16H15N5</chebi:formula>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:47165-04-8</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51231</oboInOwl:id>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FWBHETKCLVMNFS-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C16H15N5/c17-15(18)10-3-1-9(2-4-10)13-7-11-5-6-12(16(19)20)8-14(11)21-13/h1-8,21H,(H3,17,18)(H3,19,20)</chebi:inchi>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NC(=N)c1ccc(cc1)-c1cc2ccc(cc2[nH]1)C(N)=N</chebi:smiles>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51686">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haematoxylin</rdfs:label>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">302.079</chebi:monoisotopicmass>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">302.27876</chebi:mass>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7,11b-dihydrobenz[b]indeno[1,2-d]pyran-3,4,6a,9,10(6H)-pentol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7,11b-dihydroindeno[2,1-c]chromene-3,4,6a,9,10(6H)-pentol</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic heterotetracyclic compound 7,11b-dihydroindeno[2,1-c]chromene carrying five hydroxy substituents at positions 3, 4, 6a, 9 and 10. The most important and most used dye in histology, histochemistry, histopathology and in cytology.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:91399</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C.I. 75290</oboInOwl:hasRelatedSynonym>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16H14O6</chebi:formula>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:17647-60-8</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51686</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haematoxylin</oboInOwl:hasExactSynonym>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C16H14O6/c17-10-2-1-8-13-9-4-12(19)11(18)3-7(9)5-16(13,21)6-22-15(8)14(10)20/h1-4,13,17-21H,5-6H2</chebi:inchi>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural black 1</oboInOwl:hasRelatedSynonym>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oc1cc2CC3(O)COc4c(O)c(O)ccc4C3c2cc1O</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11677809</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12751322</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18411731</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19579146</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:91399</oboInOwl:hasDbXref>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WZUVPPKBWHMQCE-UHFFFAOYSA-N</chebi:inchikey>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematoxilina</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematoxylin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematoxyline</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_90994 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_90994">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3,3&#39;-diaminobenzidine</rdfs:label>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1,1&#39;-biphenyl)-3,3&#39;,4,4&#39;-tetramine</oboInOwl:hasRelatedSynonym>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">214.122</chebi:monoisotopicmass>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">214.267</chebi:mass>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3,3&#39;,4,4&#39;-biphenyltetramine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3,3&#39;,4,4&#39;-diphenyltetramine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3,3&#39;,4,4&#39;-tetraaminobiphenyl</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3,3&#39;,4,4&#39;-tetraaminodiphenyl</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3,3&#39;,4,4&#39;-tetraminobiphenyl</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3,3&#39;-diaminobenzidene</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3,3&#39;-diaminobenzidine</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A member of the class of biphenyls that is benzidine in which one of the hydrogens ortho to each of the amino groups has been replaced by an amino group.</obo:IAO_0000115>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1(=C(C=CC(=C1)C=2C=CC(=C(C2)N)N)N)N</chebi:smiles>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C12H14N4</chebi:formula>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:91-95-2</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:90994</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DAB</oboInOwl:hasRelatedSynonym>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HSTOKWSFWGCZMH-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C12H14N4/c13-9-3-1-7(5-11(9)15)8-2-4-10(14)12(16)6-8/h1-6H,13-16H2</chebi:inchi>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10810977</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:14533850</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15721816</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1726150</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17676804</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18248855</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:220157</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:2322454</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23531405</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:3985946</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:1212988</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:3,3&#39;-Diaminobenzidine</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biphenyl-3,3&#39;,4,4&#39;-tetramine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biphenyl-3,3&#39;,4,4&#39;-tetrayltetraamine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

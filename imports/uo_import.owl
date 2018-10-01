@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/uo_import.owl#"
+     xml:base="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/uo_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/uo_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length unit</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the distance between two points.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000001</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uo#unit_group_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000002">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass unit</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the amount of matter/energy of a physical object.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000002</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uo#unit_group_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000003">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time unit</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the dimension in which events occur in sequence.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000003</oboInOwl:id>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000149</oboInOwl:hasAlternativeId>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time derived unit</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uo#unit_group_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000047">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">area unit</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the amount of a 2-dimensional flat surface.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000047</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uo#unit_group_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000095">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume unit</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the amount of space occupied by any substance, whether solid, liquid, or gas.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000095</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uo#unit_group_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000121">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angle unit</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the figure or space formed by the junction of two lines or planes.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000121</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uo#unit_group_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000122">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plane angle unit</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the angle formed by two straight lines in the same plane.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000122</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uo#unit_group_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000124">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid angle unit</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the angle formed by three or more planes intersecting at a common point.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000124</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uo#unit_group_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000186">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dimensionless unit</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of physical quantity consisting of only a numerical number without any units.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000186</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uo#unit_group_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000189">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count unit</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless unit which denotes a simple count of things.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000189</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count</oboInOwl:hasExactSynonym>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uo#unit_group_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000192">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecule count</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless count unit which denotes the number of molecules.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000192</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uo#unit_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

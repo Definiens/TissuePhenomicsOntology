@@ -1,0 +1,1333 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/uberon_import.owl#"
+     xml:base="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/uberon_import.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/uberon_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">external_definition</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alternate textual definition for a class taken unmodified from an external source. This definition may have been used to derive a generalized definition for the new class.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This annotation property may be replaced with an annotation property from an external ontology such as IAO</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBPROP:0000001</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">external_definition</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">external_definition</oboInOwl:shorthand>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000202">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma_set_term</rdfs:label>
+        <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA has terms like &#39;set of X&#39;. In general we do not include set-of terms in uberon, but provide a mapping between the singular form and the FMA set term</obo:UBPROP_0000012>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBPROP:0000202</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma_set_term</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma_set_term</oboInOwl:shorthand>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor note</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000116</oboInOwl:hasDbXref>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</oboInOwl:shorthand>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contributor</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dc-contributor</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dc-contributor</oboInOwl:shorthand>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.org/dc/elements/1.1/contributor"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator notes</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000232</oboInOwl:hasDbXref>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator_notes</oboInOwl:shorthand>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator_notes</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/depicted_by"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000008">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taxon_notes</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Notes on the how instances of this class vary across species.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBPROP:0000008</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taxon_notes</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">taxon_notes</oboInOwl:shorthand>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000009">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">function_notes</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Notes on the evolved function of instances of this class.</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This annotation property may be replaced with an annotation property from an external ontology such as IAO</obo:IAO_0000116>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBPROP:0000009</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">function_notes</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">function_notes</oboInOwl:shorthand>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000007">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_relational_adjective</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBPROP:0000007</oboInOwl:hasDbXref>
+        <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used to connect a class to an adjectival form of its label. For example, a class with label &#39;intestine&#39; may have a relational adjective &#39;intestinal&#39;.</obo:IAO_0000232>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_relational_adjective</oboInOwl:shorthand>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_relational_adjective</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_class_level"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000002">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">axiom_lost_from_external_ontology</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual description of an axiom loss in this ontology compared to an external ontology.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This annotation property may be replaced with an annotation property from an external ontology such as IAO</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBPROP:0000002</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">axiom_lost_from_external_ontology</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">axiom_lost_from_external_ontology</oboInOwl:shorthand>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000003">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homology_notes</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Notes on the homology status of this class.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This annotation property may be replaced with an annotation property from an external ontology such as IAO</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBPROP:0000003</oboInOwl:hasDbXref>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homology_notes</oboInOwl:shorthand>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homology_notes</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002174">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dubious_for_taxon</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002174</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S dubious_for_taxon T if it is probably the case that no instances of S can be found in any instance of T.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dubious_for_taxon</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dubious_for_taxon</oboInOwl:shorthand>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">this relation lacks a strong logical interpretation, but can be used in place of never_in_taxon where it is desirable to state that the definition of the class is too strict for the taxon under consideration, but placing a never_in_taxon link would result in a chain of inconsistencies that will take time to resolve. Example: metencephalon in teleost</rdfs:comment>
+        <oboInOwl:is_class_level rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_class_level>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000012">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">external_ontology_notes</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Notes on how similar or equivalent classes are represented in other ontologies.</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This annotation property may be replaced with an annotation property from an external ontology such as IAO</obo:IAO_0000116>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBPROP:0000012</oboInOwl:hasDbXref>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">external_ontology_notes</oboInOwl:shorthand>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">external_ontology_notes</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000011">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">development_notes</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Notes on the ontogenic development of instances of this class.</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This annotation property may be replaced with an annotation property from an external ontology such as IAO</obo:IAO_0000116>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBPROP:0000011</oboInOwl:hasDbXref>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">development_notes</oboInOwl:shorthand>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">development_notes</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000057">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urethra</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001426</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-1132</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000931</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:30901</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100099</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:19667</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:390</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In human males, the urethra travels through the penis, and carries semen as well as urine. In females, the urethra is shorter and emerges above the vaginal opening.</obo:UBPROP_0000008>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000379</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000121</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D014521</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000121</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12417</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjkypwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000057</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0041967</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001264</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Urethra</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the fibromuscular tubular canal through which urine is discharged from the bladder to the exterior via the external urinary meatus; in males, the urethra is joined by the ejaculatory ducts and serves as a passageway for semen during ejaculation, as well as a canal for urine during voiding; in females, the urethra is shorter and emerges above the vaginal opening</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urethral</obo:UBPROP_0000007>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Urethra"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0041967"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/c/cb/Female_anatomy.png"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/302513006"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000062">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure that performs a specific function or group of functions [WP].</obo:IAO_0000115>
+        <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO v1 does not include a generic &#39;organ&#39; class, only simple and compound organ. CARO v2 may include organ, see https://github.com/obophenotype/caro/issues/4</obo:UBPROP_0000012>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0020004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000634</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:35949</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:01000162</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:67498</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0003001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C13018</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rv5XMb5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rwP3iWpwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organs are commonly observed as visibly distinct structures, but may also exist as loosely associated clusters of cells that work together to perform a specific function or functions.</obo:UBPROP_0000001>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000062</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0178784</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBbt:0003760</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical unit</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body organ</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">element</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Organ_(anatomy)"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0178784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref rdf:resource="http://uri.neuinfo.org/nif/nifstd/birnlex_4"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/272625005"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000064">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ part</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multicellular structure that is a part of an organ.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0011124</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000635</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:82472</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000064</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinal organ part</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">currently defined in a very broad sense, may be replaced by more specific classes in the future</obo:IAO_0000232>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regional part of organ</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#non_informative"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref rdf:resource="http://uri.neuinfo.org/nif/nifstd/birnlex_16"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/113343008"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/91717005"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000310">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-2083</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100124</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:9601</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:33</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D001940</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12971</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjV7ZwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The breasts of a female primate&#39;s body contain the mammary glands, which secrete milk used to feed infants. Both men and women develop breasts from the same embryological tissues. However, at puberty female sex hormones, mainly estrogens, promote breast development, which does not happen with men. As a result women&#39;s breasts become more prominent than men&#39;s.</obo:UBPROP_0000008>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The upper ventral region of the torso of an organism.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000310</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0006141</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Breast</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mamma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammary part of chest</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammary region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Breast"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0006141"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/6/6e/Closeup_of_female_breast.jpg"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181131000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000464">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical space</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010110</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BILA:0000005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0000005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0003005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt:00007017</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:5897</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO:0000005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C94478</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-material anatomical entity of three dimensions, that is generated by morphogenetic or other physiologic processes; is surrounded by one or more anatomical structures; contains one or more organism substances or anatomical structures.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0001668</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGMA:0001825</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000464</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0524461</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001728</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0003190</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0001643</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical spaces</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lumen</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lumen space</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">space</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0524461"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000479">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000607</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010054</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BILA:0000043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-2090</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0000043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0003043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:35868</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt:00007003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:9637</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO:0000043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0003002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D014024</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multicellular anatomical structure that consists of many cells of one or a few types, arranged in an extracellular matrix such that their long-range organisation is at least partly a repetition of their short-range organisation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12801</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0001477</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGMA:0001844</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000479</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0040300</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001757</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBbt:0005729</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0003040</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0001477</oboInOwl:hasDbXref>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">changed label and definition to reflect CARO2</obo:IAO_0000116>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Tissue</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple tissue</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue portion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0040300"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref rdf:resource="http://uri.neuinfo.org/nif/nifstd/birnlex_19"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000483">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelium</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000144</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010055</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000066</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BILA:0000066</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000416</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0288</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:0000066</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0003066</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:32738</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt:00007005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:9639</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:402</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO:0000066</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0003060</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D004848</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12710</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina. Examples: simple squamous epithelium, glandular cuboidal epithelium, transitional epithelium, myoepithelium[CARO].</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0001486</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The two basic types of metazoan tissue are epithelial and connective. The simplest metazoans, and developmental stages of many primitive invertebrates, consist solely of these two layers. Thus, epithelial and connective tissues may be the primary (original) tissues of metazoans, and both are important in the functional organization of animals.[well established][VHOG]</obo:UBPROP_0000003>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000483</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0014609</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000387</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0003045</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0001486</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial</obo:UBPROP_0000007>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of epithelium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Epithelium"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0014609"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/c/c3/Tkanka_nablonkowa.png"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/31610004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000945 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000945">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stomach</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000579</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANISEED:1235297</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An expanded region of the vertebrate alimentary tract that serves as a food storage compartment and digestive organ. A stomach is lined, in whole or in part by a glandular epithelium.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001307</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0980</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000837</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0001915</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:2993</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:17021</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100070</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7148</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:293</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It appears that the stomach has an ancient origin. The stomach first appears in the fish lineage. The prevertebrate chordates do not have a true stomach, whereas the cartilaginous and bony fish do. Although most fish do have a true stomach, some fish species appear to have lost the stomach secondarily. The remaining vertebrate lineages do have a true stomach (at least in the adult animal), although there is great variation in the size and shape of the stomach.[well established][VHOG]</obo:UBPROP_0000003>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000353</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000051</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:A03.492.766</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000051</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12391</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjlqpwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portion of alimentary canal with increased circular and longitudinal smooth muscle. Bounded posteriorly by the pyloric sphincter. Mucosal lining has increased folding.[AAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0002121</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000945</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0038351</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000408</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We restrict this to the vertebrate specific structure - see the grouping class &#39;food storage organ&#39; for analogous structures in other species. Teleosts: Zebrafish is functionally stomach-less, but may retain ontogenic footprint. Although the precise shape and size of the stomach varies widely among different vertebrates, the relative positions of the oesophageal and duodenal openings remain relatively constant. As a result, the organ always curves somewhat to the left before curving back to meet the pyloric sphincter. However, lampreys, hagfishes, chimaeras, lungfishes, and some teleost fish have no stomach at all, with the oesophagus opening directly into the intestine. The gastric lining is usually divided into two regions, an anterior portion lined by fundic glands, and a posterior with pyloric glands. Cardiac glands are unique to mammals, and even then are absent in a number of species. The distributions of these glands vary between species, and do not always correspond with the same regions as in man. Furthermore, in many non-human mammals, a portion of the stomach anterior to the cardiac glands is lined with epithelium essentially identical to that of the oesophagus. Ruminants, in particular, have a complex stomach, the first three chambers of which are all lined with oesophageal mucosa</obo:UBPROP_0000008>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000128</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior intestine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Stomach</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gaster</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesenteron</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stomach chamber</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ventriculus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Stomach"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0038351"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/e/e0/Stomach_diagram.svg"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181246003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000948 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000948">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A myogenic muscular circulatory organ found in the vertebrate cardiovascular system composed of chambers of cardiac muscle. It is the primary circulatory organ.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010210</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As noted, the hearts of birds and mammals have four chambers that arises from the two chambers (atrium and ventricle) of the fish heart.[well established][VHOG]</obo:UBPROP_0000003>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BILA:0000020</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000562</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blood pumping organ composed of four chambers: sinus venosus, atrium, cardiac ventricle and bulbus arteriosus.[TAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0445</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000815</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0000738</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:420</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:16105</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100018</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7088</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:174</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herz@de</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000072</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000036</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D006321</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000036</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12727</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjvDpwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Part of the circulatory system responsible for pumping blood; composed of three chambers--two atria and one ventricle.[AAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0000114</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taxon notes:&quot; the ascidian tube-like heart lacks chambers....The ascidian heart is formed after metamorphosis as a simple tube-like structure with a single-layered myoepithelium that is continuous with a single-layered pericar- dial wall. It lacks chambers and endocardium.... The innovation of the chambered heart was a key event in vertebrate evolution, because the chambered heart generates one-way blood flow with high pressure, a critical requirement for the efficient blood supply of large-body vertebrates... all extant vertebrates have hearts with two or more chambers (Moorman and Christoffels 2003)&quot; http://dx.doi.org/10.1101/gad.1485706</rdfs:comment>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000948</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0018787</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000276</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000064</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0000114</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branchial heart</oboInOwl:hasNarrowSynonym>
+        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiac</obo:UBPROP_0000007>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardium</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chambered heart</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Heart</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship type change: differentiates_from lateral plate mesoderm (AAO:0010574) CHANGED TO: develops_from lateral plate mesoderm (UBERON:0003081)[AAO]</obo:UBPROP_0000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vertebrate heart</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Heart"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0018787"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/302509004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000955">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain</rdfs:label>
+        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(...) at some stage of its development, every chordate exhibits five uniquely derived characters or synapomorphies of the group: (...) (4) a single, tubular nerve cord that is located dorsal to the notochord (...) (reference 1); The neural tube is destined to differentiate into the brain and spinal cord (the central nervous system) (reference 2).[well established][VHOG]</obo:UBPROP_0000003>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010478</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABA:Brain</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAMS:Br</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAMS:Brain</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BILA:0000135</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000142</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0095</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cavitated compound organ which is comprised of gray and white matter and surrounds the cerebral ventricular system.[TAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DHBA:10155</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000302</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0000183</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:2641</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:6485</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:16894</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100164</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt:00005095</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:50801</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:571</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HBA:4005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000168</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000098</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MBA:8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MBA:997</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D001921</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000098</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12439</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjT65wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PBA:3999</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Part of the central nervous system situated within the cranium and composed of both nerve cell bodies and nerve fibers.[AAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0000008</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP].</obo:IAO_0000115>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The part of the central nervous system contained within the cranium, comprising the forebrain, midbrain, hindbrain, and metencephalon. It is derived from the anterior part of the embryonic neural tube (or the encephalon). Does not include retina. (CUMBO)</obo:UBPROP_0000001>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000955</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0006104</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1269537</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000157</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000010</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0000008</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">encephalon</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Brain</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=21</oboInOwl:hasDbXref>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires review for applicability to invertebrate structures, e.g. synganglion</obo:IAO_0000116>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suprasegmental levels of nervous system</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suprasegmental structures</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synganglion</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the brain</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=21"/>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Brain"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0006104"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C1269537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#cumbo"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref rdf:resource="http://uri.neuinfo.org/nif/nifstd/birnlex_796"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/258335003"/>
+        <dc:contributor rdf:resource="https://github.com/cmungall"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000974 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000974">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neck</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000108</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organism subdivision that extends from the head to the pectoral girdle, encompassing the cervical vertebral column.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000420</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-2045</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000967</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0003108</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:35587</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7155</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:86</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000024</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000297</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D009333</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000297</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C13063</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjLF5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000974</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0027530</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cervical</obo:UBPROP_0000007>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Neck</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neck (volume)</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true necks are considered to be present when the pectoral girdle is separate from the skull - Tiktaalik is the earliest known fish to have a true neck.</obo:IAO_0000232>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Neck"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0027530"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <obo:RO_0002174 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32443"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/9/99/Female_neck.jpg"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/302550007"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001155">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colon</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010400</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Although all vertebrates have a digestive tract and accessory glands, various parts of this system are not necessarily homologous, analogous, or even present in all species. Therefore, broad comparisons can be best made under the listings of headgut, foregut, midgut, pancreas and biliary system, hindgut.[uncertain][VHOG]</obo:UBPROP_0000003>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000269</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0158</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000361</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:18939</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100079</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:14543</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:309</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In mammals, the colon consists of four sections: the ascending colon, the transverse colon, the descending colon, and the sigmoid colon[WP]</obo:UBPROP_0000008>
+        <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In zebrafish, the posterior intestine has short longitudinally arranged epithelial folds which are similar to the colon of higher vertebrates[ZFIN]</obo:UBPROP_0000008>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Last portion of the large intestine before it becomes the rectum.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000335</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAP:0000001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000526</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:A03.492.411.495.356</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12382</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvgLEM5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0000706</oboInOwl:hasDbXref>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TODO - abstract this such that it legitimately covers all vertebrates</obo:IAO_0000116>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The last portion of the digestive system, it extracts water and salt from solid wastes before they are eliminated from the body.[AAO]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The posterior intestine has short longitudinally arranged epithelial folds which are similar to the colon of higher vertebrates. Wallace et al, 2005.[TAO]</obo:UBPROP_0000001>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001155</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0009368</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000648</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000243</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0000706</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colonic</obo:UBPROP_0000007>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Colon</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindgut</oboInOwl:hasRelatedSynonym>
+        <obo:UBPROP_0000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">it extracts water and salt from solid wastes before they are eliminated from the body[WP]</obo:UBPROP_0000009>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">large bowel</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posterior intestine</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Colon_(anatomy)"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0009368"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/302508007"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001230">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glomerular capsule</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cup-like sac at the expanded beginning of a tubular component of a nephron that contains the glomerulus</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010526</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure found in the kidney consisting of an expanded end of a kidney tubule surrounding a glomerulus and is the major site of filtration.[AAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0002297</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bowman&#39;s capsule</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bowman&#39;s capsule</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bowmans capsule</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:27973</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:28257</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:15626</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluids from blood in the glomerulus are collected in the Bowman&#39;s capsule and further processed along the nephron to form urine. This process is known as ultrafiltration[WP].</obo:UBPROP_0000009>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KUPO:0001001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0001660</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malphigian capsule</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malpighian capsule</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mueller capsule</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muellerian capsule</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C32225</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000011 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One fold of the S-shaped body gives rise to Bowman&#39;s capsule[GUDMAP]</obo:UBPROP_0000011>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0005254</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0005310</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001230</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0524448</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0005254</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0005310</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capsula glomerularis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capsula glomeruli</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pronephric glomerular capsule</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal glomerular capsule</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Bowman%27s_capsule"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0524448"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/3/30/Gray1130.svg"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/361331000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001264">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreas</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010112</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating enzymes[GO].</obo:IAO_0000115>
+        <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As a secretory organ serving exocrine and endocrine functions, the pancreas is specific to the vertebrates[PMID:16417468] Hagfishes and lampreys are unique in the complete separation of their endocrine pancreas (islet or- gan) and their exocrine pancreas (50). The endocrine and exocrine pancreas are coassociated in crown gnathostomes (50). In Branchiostoma and Ciona, there is no diverticulum as there is in hagfishes, lampreys, and gnathostomes, only dispersed insulin-secreting cells in the walls of the gastrointestinal tract (51, 52)</obo:UBPROP_0000008>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000988</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0736</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000855</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0001367</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:6893</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:17503</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100092</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7198</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:334</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In the hagfish and lampreys (our most primitive vertebrate species of today), the first sign of &#39;a new organ&#39; is found as collections of endocrine cells around the area of the bile duct connection with the duodenum. These endocrine organs are composed of 99% beta cells and 1% somatostatin-producing delta cells. Compared to the more primitive protochordates (e.g. amphioxus), this represents a stage where all previously scattered insulin-producing cells of the intestinal tissue have now quantitatively migrated to found a new organ involved in sensing blood glucose rather than gut glucose. Only later in evolution, the beta cells are joined by exocrine tissue and alpha cells (exemplified by the rat-, rabbit- and elephant-fishes). Finally, from sharks and onwards in evolution, we have the islet PP-cell entering to complete the pancreas.[well established][VHOG]</obo:UBPROP_0000003>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000120</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000075</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D010179</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000075</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12393</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVimZZwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ which secretes a fluid containing enzymes that aid in the digestion of food.[AAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0000140</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mature pancreas of higher vertebrates and mammals comprises two major functional units: the exocrine pancreas, which is responsible for the production of digestive enzymes to be secreted into the gut lumen, and the endocrine pancreas, which has its role in the synthesis of several hormones with key regulatory functions in food uptake and metabolism. The exocrine portion constitutes the majority of the mass of the pancreas, and contains only two different cell types, the secretory acinar cells and the ductular cells. The endocrine portion, which comprises only 1-2% of the total mass, contains five different cell types, which are organized into mixed functional assemblies referred to as the islets of Langerhans</obo:UBPROP_0000009>
+        <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The zebrafish does not have a discrete pancreas. Exocrine pancreatic tissue can be found scattered along the intestinal tract. The acinar structure of the exocrine pancreas is very similar to that of mammals and comprises cells with a very dark, basophilic cytoplasm</obo:UBPROP_0000008>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001264</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0030274</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000050</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000136</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0000140</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Pancreas</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic</obo:UBPROP_0000007>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Pancreas"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0030274"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181277001"/>
+        <foaf:depicted_by rdf:resource="https://upload.wikimedia.org/wikipedia/commons/7/7e/Blausen_0699_PancreasAnatomy2.png"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002046">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thyroid gland</rdfs:label>
+        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(...) at some stage of its development, every chordate exhibits five uniquely derived characters or synapomorphies of the group: (...) (2) a groove in the pharyngeal floor known as the endostyle, or a thyroid gland derived from part of the endostyle (...).[well established][VHOG]</obo:UBPROP_0000003>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A two-lobed endocrine gland found in all vertebrates, located in front of and on either side of the trachea in humans, and producing various hormones, such as triiodothyronine and calcitonin[BTO].</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010544</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001379</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-1047</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000861</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0002028</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:2148</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:2975</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:17068</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100133</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Either of paired structures located in the throat which develop from the ventral wall of the pharynx and excretes hormones involved in the morphological and functional changes during metamorphosis as well as influencing other tissues.[AAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:9603</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:465</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In fish, it is usually located below the gills and is not always divided into distinct lobes. However, in some teleosts, patches of thyroid tissue are found elsewhere in the body, associated with the kidneys, spleen, heart, or eyes</obo:UBPROP_0000008>
+        <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In larval lampreys, the thyroid originates as an exocrine gland, secreting its hormones into the gut, and associated with the larva&#39;s filter-feeding apparatus. In the adult lamprey, the gland separates from the gut, and becomes endocrine, but this path of development may reflect the evolutionary origin of the thyroid. For instance, the closest living relatives of vertebrates, the tunicates and Amphioxus, have a structure very similar to that of larval lampreys, and this also secretes iodine-containing compounds (albeit not thyroxine)</obo:UBPROP_0000008>
+        <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In tetrapods, the thyroid is always found somewhere in the neck region. In most tetrapod species, there are two paired thyroid glands - that is, the right and left lobes are not joined together. However, there is only ever a single thyroid gland in most mammals, and the shape found in humans is common to many other species</obo:UBPROP_0000008>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000129</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000081</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D013961</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000081</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12400</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjLT5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002046</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0040132</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000418</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000162</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:ThyroidGland</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandula thyroidea</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thyroid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Thyroid"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0040132"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/a/a3/Illu_thyroid_parathyroid.jpg"/>
+        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/c/c6/Illu_endocrine_system.jpg"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181117000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002048">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000275</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010567</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000763</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0568</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000934</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0001042</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:1554</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:2205</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:16728</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100042</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Either of two organs which allow gas exchange absorbing oxygen from inhaled air and releasing carbon dioxide with exhaled air.[AAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7195</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:345</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lungs had already developed as paired ventral pockets from the intestine in the ancestor of Osteognathostomata. (...) In actinopterygian fishes, apart from Cladistia, the ventral intestinal pocket migrates dorsally and becomes the swim-bladder, a mainly hydrostatical organ (reference 1); Comparative transcriptome analyses indicate molecular homology of zebrafish swimbladder and Mammalian lung (reference 2).[well established][VHOG]</obo:UBPROP_0000003>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000415</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000135</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D008168</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000135</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12468</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjKy5wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiration organ that develops as an oupocketing of the esophagus.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snakes and limbless lizards typically possess only the right lung as a major respiratory organ; the left lung is greatly reduced, or even absent. Amphisbaenians, however, have the opposite arrangement, with a major left lung, and a reduced or absent right lung [WP]</rdfs:comment>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002048</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0024109</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000310</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000119</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Lung</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pulmo</oboInOwl:hasExactSynonym>
+        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pulmonary</obo:UBPROP_0000007>
+        <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiration organ in all air-breathing animals, including most tetrapods, a few fish and a few snails. In mammals and the more complex life forms, the two lungs are located in the chest on either side of the heart. Their principal function is to transport oxygen from the atmosphere into the bloodstream, and to release carbon dioxide from the bloodstream into the atmosphere. This exchange of gases is accomplished in the mosaic of specialized cells that form millions of tiny, exceptionally thin-walled air sacs called alveoli. // Avian lungs do not have alveoli as mammalian lungs do, they have Faveolar lungs. They contain millions of tiny passages known as para-bronchi, connected at both ends by the dorsobronchi</obo:UBPROP_0000008>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Lung"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0024109"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181216001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin of body</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001253</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0934</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000962</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0001844</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:17525</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7163</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA uses the term skin to refer to what is called here: zone of skin</obo:UBPROP_0000012>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D012867</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFMO:0000099</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12470</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjX3ZwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The organ covering the body that consists of the dermis and epidermis.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002097</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1123023</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000023</oboInOwl:hasDbXref>
+        <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">consider &#39;integumentary system&#39; for invertebrates</obo:IAO_0000232>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entire integument</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entire skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Skin</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integument</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integumental organ</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pelt</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin organ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Skin"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C1123023"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/6/6d/Skin.svg"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181469002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002107">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liver</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0010111</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All vertebrates possess a liver (reference 1); Later in craniate evolution, an anterior gill arch was transformed into jaws, and many new types of feeding subsequently evolved.(...) A liver evolved that, among its many functions, stores considerable energy as glycogen or lipid (reference 2).[well established][VHOG]</obo:UBPROP_0000003>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO].</obo:IAO_0000115>
+        <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organ sometimes referred to as a liver is found associated with the digestive tract of the primitive chordate Amphioxus. However, this is an enzyme secreting gland, not a metabolic organ, and it is unclear how truly homologous it is to the vertebrate liver. The zebrafish liver differs from the mammalian liver in that the hepatocytes are not clearly organized in cords or lobules and the typical portal triads are not apparent. In addition, the zebrafish liver does not have Kuppfer cells. Furthermore, a clear distinction can be made between the male and female liver in the adult zebrafish. The female hepatocytes are very basophilic (Figure 15c) as a result of the production of vitellogenin (Van der Ven et al. 2003).</obo:UBPROP_0000008>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000759</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0564</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000887</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0000997</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:2197</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:16846</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100089</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7197</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:288</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000358</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000097</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D008099</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000097</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12392</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Only ZFA considers this part_of immune system - we weaken this to an overlaps relation, as in general it&#39;s only a subset of cells that have clear immune function.</obo:UBPROP_0000012>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVimppwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ which secretes bile and participates in formation of certain blood proteins.[AAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0000123</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000008 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The liver is found in all vertebrates, and is typically the largest visceral organ. Its form varies considerably in different species, and is largely determined by the shape and arrangement of the surrounding organs. Nonetheless, in most species it is divided into right and left lobes; exceptions to this general rule include snakes, where the shape of the body necessitates a simple cigar-like form. The internal structure of the liver is broadly similar in all vertebrates.</obo:UBPROP_0000008>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002107</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0023884</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0000257</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000133</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0000123</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Liver</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatic</obo:UBPROP_0000007>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iecur</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jecur</oboInOwl:hasRelatedSynonym>
+        <obo:UBPROP_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship type change: differentiates_from endoderm (AAO:0000139) CHANGED TO: develops_from endoderm (UBERON:0000925)[AAO]</obo:UBPROP_0000002>
+        <obo:UBPROP_0000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO].</obo:UBPROP_0000009>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Liver"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0023884"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/6/64/Leber_Schaf.jpg"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181268008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002113">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A paired organ of the urinary tract which has the production of urine as its primary function.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000250</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000671</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0510</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000929</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:17373</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100096</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7203</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:423</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000368</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000119</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D007668</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000119</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12415</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of either of a pair of structures lying on either side of the dorsal aorta in which fluid balance is regulated and waste is excreted out in the form of urine.[AAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjlYpwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002113</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0022646</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0003267</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Kidney</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal</obo:UBPROP_0000007>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reniculate kidney</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Kidney"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0022646"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
+        <obo:UBPROP_0000202 rdf:resource="http://purl.obolibrary.org/obo/FMA_264815"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181414000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002367">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate gland</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0001129</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0828</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000858</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:19287</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100104</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:9600</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:392</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000404</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000078</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D011467</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000078</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12410</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rv6trqZwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TODO - FMA treats the gland as part of the prostate - see also FMA:74119.</obo:IAO_0000116>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The prostate gland is a partly muscular, partly glandular body that is situated near the base of the mammalian male urethra and secretes an alkaline viscid fluid which is a major constituent of the ejaculatory fluid.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002367</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0033572</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001261</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:ProstateGland</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male prostate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostata</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate</oboInOwl:hasExactSynonym>
+        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostatic</obo:UBPROP_0000007>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Prostate"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0033572"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/a/a1/Prostatelead.jpg"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/181422007"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002384">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connective tissue</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000098</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000421</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bindegewebe</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-2009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000952</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:35251</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:9640</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:100</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000012 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA also has set of connective tissues</obo:UBPROP_0000012>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000011</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000301</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D003238</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000301</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12374</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of the four types of tissue in traditional classifications. It is largely a category of exclusion rather than one with a precise definition, but there are certain characteristics shared by all or most tissues in this category, such as involvement in structure and support, derived from mesoderm, and characterized largely by the traits of non-living tissue.[AAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rv-aBgZwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portion of tissue that consists of mesodermally derived cells and intercellular matrix comprised of protein fibers and carbohydrates, which supports, ensheathes and binds together other tissues.[TAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0001641</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tissue with cells that deposit non-polarized extracellular matrix including connective tissue fibers and ground substance.</obo:IAO_0000115>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tissue with cells that deposit non-polarized extracellular matrix including connective tissue fibers and ground substance.[VSAO]</obo:UBPROP_0000001>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002384</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0009780</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSAO:0000017</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0001017</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0001632</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:ConnectiveTissue</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of connective tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textus connectivus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0009780"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/361919005"/>
+        <dc:contributor rdf:resource="https://github.com/cmungall"/>
+        <dc:contributor rdf:resource="https://github.com/wdahdul"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002385">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle tissue</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000306</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000122</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CALOHA:TS-0642</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0003122</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:32715</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:9641</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0002437</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D009132</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle tissue is a contractile tissue made up of actin and myosin fibers[GO].</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12435</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of the four types of tissue in traditional classifications. Tissue that contains cells with contractile filaments that move past each other and change the size of the cell. Muscle tissue also is separated into three distinct categories.[AAO]</obo:UBPROP_0000001>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002385</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C2328219</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertebrate muscle is categorized into three major muscle types defined by their structural and functional properties: skeletal, cardiac and smooth. In Dmel the counterparts are somatic, heart/cardiac and visceral. Here we take a cell type based approach.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:MuscleTissue</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscular tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of muscle tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textus muscularis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Muscle_tissue"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C2328219"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/91727004"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002418">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cartilage tissue</rdfs:label>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of dense connective tissue. It is composed of cells called chondrocytes which are dispersed in a firm gel-like ground substance, called the matrix. Cartilage is avascular (contains no blood vessels) and nutrients are diffused through the matrix. Cartilage is found in the joints, the rib cage, the ear, the nose, in the throat and between intervertebral disks. It makes up virtually the entire skeleton in chondrichthyes.[AAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000060</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000087</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000206</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000949</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0003087</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:32730</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100141</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:37377</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAID:99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0000104</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000189</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D002356</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000189</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12373</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C32268</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rvVjeOZwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phylogenetic analysis suggests that cartilage arose independently in cnidarians, hemichordates, vertebrates, arthropods, annelids, brachiopods, and molluscs - or a common ancestor of brachiopods and molluscs (...). Analyses of cartilage as a tissue and of the development of invertebrate cartilages are consistent with homology between invertebrate and vertebrate cartilage. From the discussion above, it will be clear that understanding genetic changes underlying cartilage evolution is key to determining whether the multiple origins of cartilage represent parallel evolution.[well established][VHOG]</obo:UBPROP_0000003>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portion of tissue which is connective tissue composed of collagen and/or elastin fibers and chondrocytes. Cartilage is avascular and provides both skeletal functions and a framework upon which bone is deposited.[TAO]</obo:UBPROP_0000001>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Previous: &quot;A portion of connective tissue dominated by extracellular matrix containing collagen type II and large amounts of proteoglycan, particularly chondroitin sulfate[GO]. Regular connective tissue, which consists of chondrocytes and related cells, the intercellular matrix of which is chondrified. Examples: hyaline cartilage, fibrocartilage, elastic cartilage[FMA]. an avascular supporting and articular skeletal tissue. It also functions as the primary endoskeletal support in vertebrate embryos. Cartilage is deposited by and is composed of chondroblasts and chondrocytes separated by an extracellular matrix, which may or may not mineralize depending on cartilage type, age, or taxon[Hall and Witten].&quot; See also FMA:71500 Set of cartilages, FMA:55107 Cartilage organ, FMA:12264 Articular cartilage. // elements made from cartilage, cartilage-like, or chondroid tissues evolved in invertebrates[H&amp;W]</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal tissue that is avascular, rich in glycosaminoglycans (GAGs) and typically includes chondrocytes within isolated lacunae. Cartilage tissue is deposited by chondroblasts.</obo:IAO_0000115>
+        <obo:UBPROP_0000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skeletal tissue that is avascular, rich in glycosaminoglycans (GAGs) and typically includes chondrocytes within isolated lacunae. Cartilage tissue is deposited by chondroblasts.[VSAO]</obo:UBPROP_0000001>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAO:0001501</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002418</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0007301</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VHOG:0001207</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSAO:0000040</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XAO:0000170</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZFA:0005622</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cartilage</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cartilage tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cartilages</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cartilaginous tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondrogenic tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Cartilage</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of cartilage tissue</oboInOwl:hasRelatedSynonym>
+        <obo:UBPROP_0000002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relationship loss: subclass specialized connective tissue (AAO:0000571)[AAO]</obo:UBPROP_0000002>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Cartilage"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0007301"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/e/ee/Hypertrophic_Zone_of_Epiphyseal_Plate.jpg"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/309312004"/>
+        <dc:contributor rdf:resource="https://github.com/cmungall"/>
+        <dc:contributor rdf:resource="https://github.com/mellybelly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002530 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002530">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gland</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAO:0000212</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AEO:0000096</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000522</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Druese</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000797</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA2:0003096</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:2161</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:4475</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHDAA:6522</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMAPA:18425</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbt:00100317</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7146</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:86294</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAO:0000375</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MA:0003038</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAT:0000021</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIAA:0000021</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C13319</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rwP3vyJwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002530</oboInOwl:id>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:MIAA_0000021</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1285092</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WikipediaCategory:Glands</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an organ that functions as a secretory or excretory organ</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galen:Gland</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandula</oboInOwl:hasRelatedSynonym>
+        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandular</obo:UBPROP_0000007>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandular organ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Gland"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C1285092"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <foaf:depicted_by rdf:resource="http://upload.wikimedia.org/wikipedia/commons/a/a1/Gray1026.png"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/134358001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003215">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alveolus</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0002513</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EV:0100043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:82493</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C12986</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenCyc:Mx4rwN8NFZwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0003215</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0034051</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alveolar</obo:UBPROP_0000007>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ part that has the form of a hollow cavity[WP].</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Alveolus"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0034051"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003891 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003891">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stroma</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Connective, non-functional supportive framework of a biological cell, tissue, or organ. Contrast with parenchyma.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:81494</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C67387</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0003891</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0927195</oboInOwl:hasDbXref>
+        <obo:UBPROP_0000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stromal</obo:UBPROP_0000007>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stromal connective tissue</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0927195"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#grouping_class"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0018707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0018707">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bladder organ</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A membranous sac in animals that serves as the receptacle of a liquid or contains gas.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000123</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0018707</oboInOwl:id>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bladder</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

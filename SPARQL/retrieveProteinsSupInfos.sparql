@@ -1,0 +1,29 @@
+#
+# This sparql query was run agains a JENA server where the Cell Ontology (CL) and all its imports had been uploaded
+# The cell ontology was placed in the graph http://purl.obolibrary.org/obo/cl.ow
+# The Tissue Phenomics Ontology was placed in the graph http://www.definiens.com/ontologies/TissuePhenomicsOntology
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX tpo: <http://www.definiens.com/ontologies/TissuePhenomicsOntology>
+PREFIX cl: <http://purl.obolibrary.org/obo/cl.owl>
+PREFIX obocl: <http://purl.obolibrary.org/obo/cl#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX efo: <http://www.ebi.ac.uk/efo/efo.owl>
+PREFIX obi: <http://purl.obolibrary.org/obo/obi.owl#>
+PREFIX pr: <http://purl.obolibrary.org/obo/pr.owl>
+PREFIX ogg: <http://purl.obolibrary.org/obo/ogg.owl>
+construct {?c ?prop ?propValue .}
+from named tpo:
+from named pr:
+where{
+graph tpo: {
+?c rdfs:subClassOf* obo:PR_000000001 .
+}
+graph pr: {
+?c ?prop ?propValue .
+}
+FILTER (!isBlank(?propValue))
+FILTER (?prop not in (rdfs:subClassOf))
+}
