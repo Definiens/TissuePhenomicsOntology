@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="User Edited Redirect" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/ogg_import.owl" uri="imports/ogg_import.owl"/>
+    <uri id="User Edited Redirect" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/HGNC_REACTOME_UniprotKb_links.owl" uri="imports/HGNC_REACTOME_UniprotKb_links.owl"/>
     <uri id="User Edited Redirect" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/efo_import.owl" uri="imports/efo_import.owl"/>
     <uri id="User Edited Redirect" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/efo_disease_import.owl" uri="imports/efo_disease_import.owl"/>
     <uri id="User Edited Redirect" name="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/pato_import.owl" uri="imports/pato_import.owl"/>

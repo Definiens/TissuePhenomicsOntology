@@ -1,37 +1,38 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.definiens.com/ontologies/TissuePhenomicsOntology#"
      xml:base="http://www.definiens.com/ontologies/TissuePhenomicsOntology"
-     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:x_1.1="http://purl.org/dc/elements/1.1/"
      xmlns:efo="http://www.ebi.ac.uk/efo/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:doap="http://usefulinc.com/ns/doap#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:oboI="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:x_1.1="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology">
         <owl:versionIRI rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/1.0"/>
-        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/pr_import.owl"/>
+        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/HGNC_REACTOME_UniprotKb_links.owl"/>
+        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/bfo.owl"/>
+        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/chebi_import.owl"/>
+        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/cl_import.owl"/>
+        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/efo_disease_import.owl"/>
+        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/efo_import.owl"/>
+        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/obi_import.owl"/>
         <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/ogg_import.owl"/>
         <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/pato_import.owl"/>
-        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/chebi_import.owl"/>
-        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/stato_import.owl"/>
+        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/pr_import.owl"/>
         <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/ro_import.owl"/>
-        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/uo_import.owl"/>
-        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/efo_disease_import.owl"/>
-        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/bfo.owl"/>
-        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/obi_import.owl"/>
-        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/efo_import.owl"/>
+        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/stato_import.owl"/>
         <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/uberon_import.owl"/>
-        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/cl_import.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
-        <rdfs:isDefinedBy>gpotdevin@definiens.com</rdfs:isDefinedBy>
+        <owl:imports rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology/imports/uo_import.owl"/>
         <obo:IAO_0000117>Guillaume Potdevin</obo:IAO_0000117>
+        <rdfs:isDefinedBy>gpotdevin@definiens.com</rdfs:isDefinedBy>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -597,7 +598,7 @@ https://github.com/obi-ontology/obi/issues/662</obo:IAO_0000116>
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/STATO_0000101">
         <owl:propertyDisjointWith rdf:resource="http://purl.obolibrary.org/obo/STATO_0000259"/>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has numerator</TPO0000044>
-        <rdfs:label>has numerator</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has numerator</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -606,7 +607,7 @@ https://github.com/obi-ontology/obi/issues/662</obo:IAO_0000116>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/STATO_0000259">
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has denominator</TPO0000044>
-        <rdfs:label>has denominator</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has denominator</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1369,7 +1370,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microglial cell</TPO0000044>
         <rdfs:comment>Markers: Mouse: CD11b+, F4/80+, CD68+. They represent ~12% of the cells in the CNS, but they are not uniformly distributed within the CNS. A normal adult mouse brain has approximately 3.5x10e6 microglia. Microglia are also reportedly CD3-negative, CD4-positive, CD8-negative, CD11b-positive, CD11c-high, CD14-negative, CD19-negative, CD45-low, CD56-negative, CD163-negative, CD200R-positive, CD281-positive, CD282-positive, CD283-positive, CD284-positive, CD285-positive, CD286-positive, CD287-positive, CD288-positive, CD289-positive, Gr1-negative, nestin-positive, and PU.1-positive.</rdfs:comment>
-        <rdfs:label>microglial cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microglial cell</rdfs:label>
     </owl:Class>
     
 
@@ -1465,7 +1466,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peritoneal macrophage</TPO0000044>
         <rdfs:comment>Markers: Mouse: F4/80-high, CD11b-high, CD68+, SIGNR1+, Dectin-1+.</rdfs:comment>
-        <rdfs:label>peritoneal macrophage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peritoneal macrophage</rdfs:label>
     </owl:Class>
     
 
@@ -1523,7 +1524,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alveolar macrophage</TPO0000044>
         <rdfs:comment>Markers: Mouse: F4/80mid, CD11b-/low, CD11c+, CD68+, sialoadhesin+, dectin-1+, MR+, CX3CR1-.</rdfs:comment>
-        <rdfs:label>alveolar macrophage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alveolar macrophage</rdfs:label>
     </owl:Class>
     
 
@@ -1556,7 +1557,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
             </owl:Restriction>
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">natural killer cell</TPO0000044>
-        <rdfs:label>natural killer cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">natural killer cell</rdfs:label>
     </owl:Class>
     
 
@@ -1632,7 +1633,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma cell</TPO0000044>
         <rdfs:comment>Plasma cells develop in the spleen and migrate to the bone marrow. Plasma cells are also reportedly CD5-negative, CD10-negative, CD19-positive, CD20-negative, CD21-negative, CD22-negative, CD23-negative, CD24-negative, CD25-negative, CD27-positive, CD34-negative, CD38-positive, CD40-positive, CD43-positive, CD45-positive, CD48-positive, CD53-low, CD80-negative, CD81-positive, CD86-positive, CD95-positive, CD196-negative, CD229-positive, CD270-positive, CD352-positive, CD361-positive, and IgD-negative. Transcription factors: BLIMP1-positive, IRF4-positive, PAX5-negative, SpiB-negative, Ets1-negative, and XBP1-positive.</rdfs:comment>
-        <rdfs:label>plasma cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma cell</rdfs:label>
     </owl:Class>
     
 
@@ -1850,7 +1851,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immature single positive thymocyte</TPO0000044>
         <rdfs:comment>Note that this type of thymocyte has passed the beta-selection checkpoint and is rapidly proliferating and rearranging the T cell receptor alpha chain and expressing the CD8 coreceptor. This stage comes between the DN4 and DP stages.</rdfs:comment>
-        <rdfs:label>immature single positive thymocyte</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immature single positive thymocyte</rdfs:label>
     </owl:Class>
     
 
@@ -1985,7 +1986,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double-positive, alpha-beta thymocyte</TPO0000044>
         <rdfs:comment>Thymocytes of this stage are undergoing positive and negative selection.</rdfs:comment>
-        <rdfs:label>double-positive, alpha-beta thymocyte</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double-positive, alpha-beta thymocyte</rdfs:label>
     </owl:Class>
     
 
@@ -2374,7 +2375,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elicited macrophage</TPO0000044>
         <rdfs:comment>Markers: CD11b+, CD68+; Mouse: F4/80+; role or process: immune, inflammation (inflammatory response).</rdfs:comment>
-        <rdfs:label>elicited macrophage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elicited macrophage</rdfs:label>
     </owl:Class>
     
 
@@ -2402,7 +2403,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymph node macrophage</TPO0000044>
         <rdfs:comment>Marker was observed on rat cells.</rdfs:comment>
-        <rdfs:label>lymph node macrophage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymph node macrophage</rdfs:label>
     </owl:Class>
     
 
@@ -2442,7 +2443,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splenic marginal zone macrophage</TPO0000044>
         <rdfs:comment>Markers: Mouse: F4/80-, MARCO+, SR-A+, SIGN-R1+, Dectin2+.</rdfs:comment>
-        <rdfs:label>splenic marginal zone macrophage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splenic marginal zone macrophage</rdfs:label>
     </owl:Class>
     
 
@@ -2470,7 +2471,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splenic metallophillic macrophage</TPO0000044>
         <rdfs:comment>Markers: Mouse: F4/80-, Dectin2-low, sialoadhesin+.</rdfs:comment>
-        <rdfs:label>splenic metallophillic macrophage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splenic metallophillic macrophage</rdfs:label>
     </owl:Class>
     
 
@@ -2522,7 +2523,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splenic red pulp macrophage</TPO0000044>
         <rdfs:comment>Markers: Mouse: F4/80+, CD68+, MR+, Dectin2+, macrosialin+, sialoadhesin-low; role or process: immune, clearance of senescent erythrocytes.</rdfs:comment>
-        <rdfs:label>splenic red pulp macrophage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splenic red pulp macrophage</rdfs:label>
     </owl:Class>
     
 
@@ -2544,7 +2545,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splenic white pulp macrophage</TPO0000044>
         <rdfs:comment>Markers: Mouse: F4/80-, CD68+, macrosialin+.</rdfs:comment>
-        <rdfs:label>splenic white pulp macrophage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splenic white pulp macrophage</rdfs:label>
     </owl:Class>
     
 
@@ -2559,7 +2560,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
             </owl:Restriction>
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splenic tingible body macrophage</TPO0000044>
-        <rdfs:label>splenic tingible body macrophage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splenic tingible body macrophage</rdfs:label>
     </owl:Class>
     
 
@@ -2587,7 +2588,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perivascular macrophage</TPO0000044>
         <rdfs:comment>Markers: Human/monkey, mice: CD163. Human: CD14+CD16+CD163+.</rdfs:comment>
-        <rdfs:label>perivascular macrophage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perivascular macrophage</rdfs:label>
     </owl:Class>
     
 
@@ -2602,7 +2603,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
             </owl:Restriction>
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymph node subcapsular sinus macrophage</TPO0000044>
-        <rdfs:label>lymph node subcapsular sinus macrophage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymph node subcapsular sinus macrophage</rdfs:label>
     </owl:Class>
     
 
@@ -3437,7 +3438,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre-natural killer cell</TPO0000044>
         <rdfs:comment>These cells are also reportedly CD7-low, CD10-negative, CD45RA-positive, alpha-4-beta-7 integrin-high.</rdfs:comment>
-        <rdfs:label>pre-natural killer cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre-natural killer cell</rdfs:label>
     </owl:Class>
     
 
@@ -4164,7 +4165,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
             </owl:Restriction>
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long lived plasma cell</TPO0000044>
-        <rdfs:label>long lived plasma cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long lived plasma cell</rdfs:label>
     </owl:Class>
     
 
@@ -4213,7 +4214,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmablast</TPO0000044>
         <rdfs:comment>This cell type is compatible with the HIPC Lyoplate markers for &apos;plasmablast&apos;. Plasmablasts are also reportedly CD48-positive, CD63-positive, CD229-positive, CD270-positive, CD319-positive, CD352-positive, CD361-positive, and IgD-negative.</rdfs:comment>
-        <rdfs:label>plasmablast</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmablast</rdfs:label>
     </owl:Class>
     
 
@@ -4543,7 +4544,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
             </owl:Restriction>
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">innate lymphoid cell</TPO0000044>
-        <rdfs:label>innate lymphoid cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">innate lymphoid cell</rdfs:label>
     </owl:Class>
     
 
@@ -5235,7 +5236,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
             </owl:Restriction>
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">group 2 innate lymphoid cell, mouse</TPO0000044>
-        <rdfs:label>group 2 innate lymphoid cell, mouse</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">group 2 innate lymphoid cell, mouse</rdfs:label>
     </owl:Class>
     
 
@@ -5762,7 +5763,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
             </owl:Restriction>
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decidual natural killer cell</TPO0000044>
-        <rdfs:label>decidual natural killer cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decidual natural killer cell</rdfs:label>
     </owl:Class>
     
 
@@ -6043,7 +6044,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
             </owl:Restriction>
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gamma-delta thymocyte</TPO0000044>
-        <rdfs:label>gamma-delta thymocyte</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gamma-delta thymocyte</rdfs:label>
     </owl:Class>
     
 
@@ -6547,7 +6548,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
             </owl:Restriction>
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow macrophage</TPO0000044>
-        <rdfs:label>bone marrow macrophage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow macrophage</rdfs:label>
     </owl:Class>
     
 
@@ -6574,7 +6575,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
             </owl:Restriction>
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adipose macrophage</TPO0000044>
-        <rdfs:label>adipose macrophage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adipose macrophage</rdfs:label>
     </owl:Class>
     
 
@@ -6637,7 +6638,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
             </owl:Restriction>
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double negative thymocyte</TPO0000044>
-        <rdfs:label>double negative thymocyte</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double negative thymocyte</rdfs:label>
     </owl:Class>
     
 
@@ -6706,7 +6707,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
             </owl:Restriction>
         </rdfs:subClassOf>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">natural helper lymphocyte</TPO0000044>
-        <rdfs:label>natural helper lymphocyte</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">natural helper lymphocyte</rdfs:label>
     </owl:Class>
     
 
@@ -6935,7 +6936,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000116>Used for all metadata specifying or qualifying some data item</obo:IAO_0000116>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">datum label</TPO0000044>
-        <rdfs:label>datum label</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">datum label</rdfs:label>
     </owl:Class>
     
 
@@ -6967,7 +6968,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data item</TPO0000044>
-        <rdfs:label>data item</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data item</rdfs:label>
     </owl:Class>
     
 
@@ -7054,7 +7055,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To be used for all image entities (not their file).</obo:IAO_0000116>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</TPO0000044>
-        <rdfs:label>image</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</rdfs:label>
     </owl:Class>
     
 
@@ -8078,7 +8079,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboI:hasOBONamespace>
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000000001</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteins descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB].</rdfs:comment>
-        <rdfs:label>protein</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</rdfs:label>
     </owl:Class>
     
@@ -8100,7 +8100,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001002</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>CD19 molecule</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD19 molecule</rdfs:label>
     </owl:Class>
     
 
@@ -8118,7 +8117,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001003</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>CD34 molecule</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD34 molecule</rdfs:label>
     </owl:Class>
     
 
@@ -8137,7 +8135,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001004</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>CD4 molecule</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD4 molecule</rdfs:label>
     </owl:Class>
     
 
@@ -8153,7 +8150,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001005</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <rdfs:label>integrin alpha with A domain</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integrin alpha with A domain</rdfs:label>
     </owl:Class>
     
 
@@ -8176,7 +8172,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001006</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>receptor-type tyrosine-protein phosphatase C</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">receptor-type tyrosine-protein phosphatase C</rdfs:label>
     </owl:Class>
     
 
@@ -8198,7 +8193,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001008</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>integrin alpha-2</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integrin alpha-2</rdfs:label>
     </owl:Class>
     
 
@@ -8223,7 +8217,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001012</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>integrin alpha-M</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integrin alpha-M</rdfs:label>
     </owl:Class>
     
 
@@ -8244,7 +8237,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001013</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>integrin alpha-X</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integrin alpha-X</rdfs:label>
     </owl:Class>
     
 
@@ -8262,7 +8254,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001014</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=sequence. Requested by=CL.</rdfs:comment>
         <rdfs:label>receptor-type tyrosine-protein phosphatase C isoform CD45R</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">receptor-type tyrosine-protein phosphatase C isoform CD45R</rdfs:label>
     </owl:Class>
     
 
@@ -8278,7 +8269,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001015</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=sequence. Requested by=CL.</rdfs:comment>
         <rdfs:label>receptor-type tyrosine-protein phosphatase C isoform CD45RA</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">receptor-type tyrosine-protein phosphatase C isoform CD45RA</rdfs:label>
     </owl:Class>
     
 
@@ -8295,7 +8285,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001017</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=sequence. Requested by=CL.</rdfs:comment>
         <rdfs:label>receptor-type tyrosine-protein phosphatase C isoform CD45RO</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">receptor-type tyrosine-protein phosphatase C isoform CD45RO</rdfs:label>
     </owl:Class>
     
 
@@ -8311,7 +8300,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001018</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <rdfs:label>CD3 subunit with immunoglobulin domain</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD3 subunit with immunoglobulin domain</rdfs:label>
     </owl:Class>
     
 
@@ -8349,7 +8337,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001020</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>CD3 epsilon</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD3 epsilon</rdfs:label>
     </owl:Class>
     
 
@@ -8378,7 +8365,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001023</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <rdfs:label>neural cell adhesion molecule NCAM</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural cell adhesion molecule NCAM</rdfs:label>
     </owl:Class>
     
 
@@ -8399,7 +8385,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCAM</oboI:hasRelatedSynonym>
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001024</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
-        <rdfs:label>neural cell adhesion molecule 1</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural cell adhesion molecule 1</rdfs:label>
     </owl:Class>
     
@@ -8415,7 +8400,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001025</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <rdfs:label>C-type lectin with multiple lectin domains</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-type lectin with multiple lectin domains</rdfs:label>
     </owl:Class>
     
 
@@ -8442,7 +8426,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001083</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>CD2 molecule</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD2 molecule</rdfs:label>
     </owl:Class>
     
 
@@ -8464,7 +8447,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001084</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>T-cell surface glycoprotein CD8 alpha chain</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell surface glycoprotein CD8 alpha chain</rdfs:label>
     </owl:Class>
     
 
@@ -8484,7 +8466,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001087</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family. Classification based on GRAFS system. [PMID:12761335]</rdfs:comment>
         <rdfs:label>adhesion G-protein coupled receptor</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adhesion G-protein coupled receptor</rdfs:label>
     </owl:Class>
     
 
@@ -8517,7 +8498,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001128</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <rdfs:label>chemokine receptor</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemokine receptor</rdfs:label>
     </owl:Class>
     
 
@@ -8540,7 +8520,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001200</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene.</rdfs:comment>
         <rdfs:label>C-C chemokine receptor type 4</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C chemokine receptor type 4</rdfs:label>
     </owl:Class>
     
 
@@ -8565,7 +8544,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001201</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>C-C chemokine receptor type 5</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C chemokine receptor type 5</rdfs:label>
     </owl:Class>
     
 
@@ -8598,7 +8576,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001202</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>C-C chemokine receptor type 6</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C chemokine receptor type 6</rdfs:label>
     </owl:Class>
     
 
@@ -8628,7 +8605,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001203</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>C-C chemokine receptor type 7</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C chemokine receptor type 7</rdfs:label>
     </owl:Class>
     
 
@@ -8655,7 +8631,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001206</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>CX3C chemokine receptor 1</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CX3C chemokine receptor 1</rdfs:label>
     </owl:Class>
     
 
@@ -8682,7 +8657,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001207</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene.</rdfs:comment>
         <rdfs:label>C-X-C chemokine receptor type 3</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-X-C chemokine receptor type 3</rdfs:label>
     </owl:Class>
     
 
@@ -8716,7 +8690,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001208</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>C-X-C chemokine receptor type 4</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-X-C chemokine receptor type 4</rdfs:label>
     </owl:Class>
     
 
@@ -8744,7 +8717,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001209</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>C-X-C chemokine receptor type 5</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-X-C chemokine receptor type 5</rdfs:label>
     </owl:Class>
     
 
@@ -8759,7 +8731,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001281</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <rdfs:label>ADP-ribosyl cyclase</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP-ribosyl cyclase</rdfs:label>
     </owl:Class>
     
 
@@ -8782,7 +8753,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001288</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>B-cell receptor CD22</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-cell receptor CD22</rdfs:label>
     </owl:Class>
     
 
@@ -8809,7 +8779,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001289</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>membrane-spanning 4-domains subfamily A member 1</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane-spanning 4-domains subfamily A member 1</rdfs:label>
     </owl:Class>
     
 
@@ -8845,7 +8814,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001307</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>CD44 molecule</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD44 molecule</rdfs:label>
     </owl:Class>
     
 
@@ -8877,7 +8845,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001318</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>L-selectin</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-selectin</rdfs:label>
     </owl:Class>
     
 
@@ -8898,7 +8865,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001319</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>SLAM family member 5</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLAM family member 5</rdfs:label>
     </owl:Class>
     
 
@@ -8918,7 +8884,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001326</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>bone marrow stromal antigen 2</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow stromal antigen 2</rdfs:label>
     </owl:Class>
     
 
@@ -8940,7 +8905,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001338</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>complement receptor type 2</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complement receptor type 2</rdfs:label>
     </owl:Class>
     
 
@@ -8966,7 +8930,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001343</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>CD69 molecule</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD69 molecule</rdfs:label>
     </owl:Class>
     
 
@@ -8981,7 +8944,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001355</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <rdfs:label>immunoglobulin gamma Fc receptor II/III/IV</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunoglobulin gamma Fc receptor II/III/IV</rdfs:label>
     </owl:Class>
     
 
@@ -8995,7 +8957,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p55</oboI:hasBroadSynonym>
         <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPHARobj:1695</oboI:hasDbXref>
         <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIRSF:PIRSF001954</oboI:hasDbXref>
-        <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD25</oboI:hasExactSynonym>
+        <oboI:hasExactSynonym>CD25</oboI:hasExactSynonym>
         <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL-2 receptor subunit alpha</oboI:hasExactSynonym>
         <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL-2-RA</oboI:hasExactSynonym>
         <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL-2R subunit alpha</oboI:hasExactSynonym>
@@ -9007,7 +8969,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001380</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>interleukin-2 receptor subunit alpha</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-2 receptor subunit alpha</rdfs:label>
     </owl:Class>
     
 
@@ -9030,7 +8991,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001381</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>interleukin-2 receptor subunit beta</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-2 receptor subunit beta</rdfs:label>
     </owl:Class>
     
 
@@ -9049,7 +9009,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001402</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>killer cell lectin-like receptor subfamily D member 1</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">killer cell lectin-like receptor subfamily D member 1</rdfs:label>
     </owl:Class>
     
 
@@ -9070,7 +9029,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboI:hasOBONamespace>
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001408</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
-        <rdfs:label>ADP-ribosyl cyclase 1</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP-ribosyl cyclase 1</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1</rdfs:label>
     </owl:Class>
     
@@ -9112,7 +9071,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001483</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>low affinity immunoglobulin gamma Fc region receptor III</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low affinity immunoglobulin gamma Fc region receptor III</rdfs:label>
     </owl:Class>
     
 
@@ -9185,7 +9143,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001806</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>C-type lectin domain family 6 member A</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-type lectin domain family 6 member A</rdfs:label>
     </owl:Class>
     
 
@@ -9209,7 +9166,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001807</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>C-type lectin domain family 7 member A</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-type lectin domain family 7 member A</rdfs:label>
     </owl:Class>
     
 
@@ -9224,7 +9180,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001810</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <rdfs:label>CSF-1/PDGF receptor-type tyrosine-protein kinase</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSF-1/PDGF receptor-type tyrosine-protein kinase</rdfs:label>
     </owl:Class>
     
 
@@ -9249,7 +9204,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TM7LN3</oboI:hasRelatedSynonym>
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001813</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
-        <rdfs:label>EGF-like module-containing mucin-like hormone receptor-like 1</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EGF-like module-containing mucin-like hormone receptor-like 1</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adhesion G protein-coupled receptor E1</rdfs:label>
     </owl:Class>
     
@@ -9265,7 +9220,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001820</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <rdfs:label>MHC class II histocompatibility antigen alpha chain</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MHC class II histocompatibility antigen alpha chain</rdfs:label>
     </owl:Class>
     
 
@@ -9280,7 +9234,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001832</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <rdfs:label>SIRP/SHPS-1 family protein</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIRP/SHPS-1 family protein</rdfs:label>
     </owl:Class>
     
 
@@ -9296,7 +9249,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001838</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <rdfs:label>T-cell surface glycoprotein CD1</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell surface glycoprotein CD1</rdfs:label>
     </owl:Class>
     
 
@@ -9317,7 +9269,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001839</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>T-cell surface glycoprotein CD5</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell surface glycoprotein CD5</rdfs:label>
     </owl:Class>
     
 
@@ -9334,7 +9285,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001841</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>T-cell-specific surface glycoprotein CD28</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell-specific surface glycoprotein CD28</rdfs:label>
     </owl:Class>
     
 
@@ -9353,7 +9303,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001852</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>cytotoxic T-lymphocyte protein 4</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytotoxic T-lymphocyte protein 4</rdfs:label>
     </owl:Class>
     
 
@@ -9375,7 +9324,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001858</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>immunoglobulin iota chain</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunoglobulin iota chain</rdfs:label>
     </owl:Class>
     
 
@@ -9397,7 +9345,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001859</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>immunoglobulin lambda-like polypeptide 1</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunoglobulin lambda-like polypeptide 1</rdfs:label>
     </owl:Class>
     
 
@@ -9420,7 +9367,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001860</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>inducible T-cell costimulator</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inducible T-cell costimulator</rdfs:label>
     </owl:Class>
     
 
@@ -9443,7 +9389,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001869</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>interleukin-7 receptor subunit alpha</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-7 receptor subunit alpha</rdfs:label>
     </owl:Class>
     
 
@@ -9458,7 +9403,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001874</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family. Requested by=CL.</rdfs:comment>
         <rdfs:label>KLRB1-like protein</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KLRB1-like protein</rdfs:label>
     </owl:Class>
     
 
@@ -9482,7 +9426,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001879</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>leukosialin</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukosialin</rdfs:label>
     </owl:Class>
     
 
@@ -9510,7 +9453,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001880</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>low affinity immunoglobulin epsilon Fc receptor</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low affinity immunoglobulin epsilon Fc receptor</rdfs:label>
     </owl:Class>
     
 
@@ -9525,7 +9467,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001883</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <rdfs:label>lysosome-associated membrane protein</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lysosome-associated membrane protein</rdfs:label>
     </owl:Class>
     
 
@@ -9543,7 +9484,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001884</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>macrophage receptor MARCO</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage receptor MARCO</rdfs:label>
     </owl:Class>
     
 
@@ -9565,7 +9505,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001885</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>macrophage scavenger receptor types I and II</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage scavenger receptor types I and II</rdfs:label>
     </owl:Class>
     
 
@@ -9580,7 +9519,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001888</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <rdfs:label>membrane alanyl aminopeptidase-like metallopeptidase</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane alanyl aminopeptidase-like metallopeptidase</rdfs:label>
     </owl:Class>
     
 
@@ -9599,7 +9537,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001889</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>CD14 molecule</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD14 molecule</rdfs:label>
     </owl:Class>
     
 
@@ -9624,7 +9561,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LY94</oboI:hasRelatedSynonym>
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001893</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
-        <rdfs:label>natural cytotoxicity triggering receptor 1</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">natural cytotoxicity triggering receptor 1</rdfs:label>
     </owl:Class>
     
@@ -9640,7 +9576,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001897</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <rdfs:label>natural killer cell receptor NKG2</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">natural killer cell receptor NKG2</rdfs:label>
     </owl:Class>
     
 
@@ -9666,7 +9601,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001898</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>neprilysin</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neprilysin</rdfs:label>
     </owl:Class>
     
 
@@ -9687,7 +9621,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001919</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>programmed cell death protein 1</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">programmed cell death protein 1</rdfs:label>
     </owl:Class>
     
 
@@ -9704,7 +9637,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001925</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>scavenger receptor cysteine-rich type 1 protein M130</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scavenger receptor cysteine-rich type 1 protein M130</rdfs:label>
     </owl:Class>
     
 
@@ -9731,7 +9663,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001927</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>sialic acid-binding Ig-like lectin 5</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sialic acid-binding Ig-like lectin 5</rdfs:label>
     </owl:Class>
     
 
@@ -9753,7 +9684,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001931</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>sialoadhesin</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sialoadhesin</rdfs:label>
     </owl:Class>
     
 
@@ -9777,7 +9707,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001932</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. The mouse ortholog is Cd24a. Mouse protein Cd24b likely also orthologous. Currently it is not in UniProt. Requested by=CL.</rdfs:comment>
         <rdfs:label>signal transducer CD24</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signal transducer CD24</rdfs:label>
     </owl:Class>
     
 
@@ -9797,7 +9726,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001935</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>syndecan-1</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syndecan-1</rdfs:label>
     </owl:Class>
     
 
@@ -9812,7 +9740,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001938</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=family.</rdfs:comment>
         <rdfs:label>thrombomodulin-like receptor</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thrombomodulin-like receptor</rdfs:label>
     </owl:Class>
     
 
@@ -9833,7 +9760,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001963</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>CD27 molecule</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD27 molecule</rdfs:label>
     </owl:Class>
     
 
@@ -9871,7 +9797,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000001968</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>tyrosine-protein phosphatase non-receptor type substrate 1</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tyrosine-protein phosphatase non-receptor type substrate 1</rdfs:label>
     </owl:Class>
     
 
@@ -9912,7 +9837,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000002023</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>NKG2-A/NKG2-B type II integral membrane protein</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NKG2-A/NKG2-B type II integral membrane protein</rdfs:label>
     </owl:Class>
     
 
@@ -9933,7 +9857,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000002028</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>antigen-presenting glycoprotein CD1d</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antigen-presenting glycoprotein CD1d</rdfs:label>
     </owl:Class>
     
 
@@ -9962,7 +9885,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000002037</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>complement component C1q receptor</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complement component C1q receptor</rdfs:label>
     </owl:Class>
     
 
@@ -9984,7 +9906,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000002039</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>glutamyl aminopeptidase</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutamyl aminopeptidase</rdfs:label>
     </owl:Class>
     
 
@@ -10006,7 +9927,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000002062</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>macrophage colony-stimulating factor 1 receptor</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage colony-stimulating factor 1 receptor</rdfs:label>
     </owl:Class>
     
 
@@ -10022,7 +9942,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000002064</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>macrosialin</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrosialin</rdfs:label>
     </owl:Class>
     
 
@@ -10044,7 +9963,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000002065</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>mast/stem cell growth factor receptor</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mast/stem cell growth factor receptor</rdfs:label>
     </owl:Class>
     
 
@@ -10067,7 +9985,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000002972</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>macrophage mannose receptor 1</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage mannose receptor 1</rdfs:label>
     </owl:Class>
     
 
@@ -10109,7 +10026,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000002977</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>killer cell lectin-like receptor subfamily B member 1C</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">killer cell lectin-like receptor subfamily B member 1C</rdfs:label>
     </owl:Class>
     
 
@@ -10130,7 +10046,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000002979</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>lymphocyte antigen 6A-2/6E-1</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphocyte antigen 6A-2/6E-1</rdfs:label>
     </owl:Class>
     
 
@@ -10147,7 +10062,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000002980</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>lymphocyte antigen 6C2</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphocyte antigen 6C2</rdfs:label>
     </owl:Class>
     
 
@@ -10183,7 +10097,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000003457</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>V(D)J recombination-activating protein 1</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V(D)J recombination-activating protein 1</rdfs:label>
     </owl:Class>
     
 
@@ -10200,7 +10113,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000003460</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>V(D)J recombination-activating protein 2</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V(D)J recombination-activating protein 2</rdfs:label>
     </owl:Class>
     
 
@@ -10225,7 +10137,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000003516</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>lactosylceramide 4-alpha-galactosyltransferase</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactosylceramide 4-alpha-galactosyltransferase</rdfs:label>
     </owl:Class>
     
 
@@ -10243,7 +10154,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000006172</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>CD209 molecule-like protein B</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD209 molecule-like protein B</rdfs:label>
     </owl:Class>
     
 
@@ -10263,7 +10173,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000007431</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>high affinity immunoglobulin epsilon receptor subunit alpha</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high affinity immunoglobulin epsilon receptor subunit alpha</rdfs:label>
     </owl:Class>
     
 
@@ -10291,7 +10200,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000008982</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>interleukin-17 receptor B</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-17 receptor B</rdfs:label>
     </owl:Class>
     
 
@@ -10315,7 +10223,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000008994</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>interleukin-1 receptor-like 1</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-1 receptor-like 1</rdfs:label>
     </owl:Class>
     
 
@@ -10336,7 +10243,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000009616</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>T-cell surface glycoprotein YE1/48</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell surface glycoprotein YE1/48</rdfs:label>
     </owl:Class>
     
 
@@ -10356,7 +10262,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000009618</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>killer cell lectin-like receptor 3</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">killer cell lectin-like receptor 3</rdfs:label>
     </owl:Class>
     
 
@@ -10376,7 +10281,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000009619</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>killer cell lectin-like receptor 4</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">killer cell lectin-like receptor 4</rdfs:label>
     </owl:Class>
     
 
@@ -10396,7 +10300,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000009623</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>killer cell lectin-like receptor 8</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">killer cell lectin-like receptor 8</rdfs:label>
     </owl:Class>
     
 
@@ -10424,7 +10327,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000009766</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>galectin-1</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galectin-1</rdfs:label>
     </owl:Class>
     
 
@@ -10444,7 +10346,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000010329</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene. Requested by=CL.</rdfs:comment>
         <rdfs:label>tyrosine-protein kinase Mer</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tyrosine-protein kinase Mer</rdfs:label>
     </owl:Class>
     
 
@@ -10487,7 +10388,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000025402</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=complex. Requested by=CL.</rdfs:comment>
         <rdfs:label>T cell receptor co-receptor CD8</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T cell receptor co-receptor CD8</rdfs:label>
     </owl:Class>
     
 
@@ -10503,7 +10403,6 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
         <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000025403</oboI:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=sequence. Requested by=CL.</rdfs:comment>
         <rdfs:label>T-cell surface glycoprotein CD8 alpha chain isoform 1</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell surface glycoprotein CD8 alpha chain isoform 1</rdfs:label>
     </owl:Class>
     
 
@@ -11030,7 +10929,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000009"/>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit</TPO0000044>
-        <rdfs:label>unit</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit</rdfs:label>
     </owl:Class>
     
 
@@ -11112,7 +11011,7 @@ for the GENUS (generic nucleus detection of hematoxylin stained nuclei in negati
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dimensionless unit</TPO0000044>
-        <rdfs:label>dimensionless unit</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dimensionless unit</rdfs:label>
     </owl:Class>
     
 
@@ -12062,7 +11961,7 @@ The data property has specified value is used to define the distance around the 
 
 each set member is supposed to be one of the n closest annotations. the set is not ordered.</rdfs:comment>
         <rdfs:comment>example: the set of cells positive for CD68 or CD163 closest to one CD68(+) cell.</rdfs:comment>
-        <rdfs:label>set of closest annotations</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">set of closest annotations</rdfs:label>
         <rdfs:label xml:lang="en">setClosestAnnotations</rdfs:label>
     </owl:Class>
     
@@ -12213,29 +12112,6 @@ In theory has specified value should not be used as Tissue within distance is no
     
 
 
-    <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000141 -->
-
-    <owl:Class rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000141">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
-                        <owl:hasValue rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000232"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174"/>
-        <x_1.1:creator rdf:resource="http://orcid.org/0000-0003-0078-2690"/>
-        <x_1.1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-29T09:42:27Z</x_1.1:date>
-        <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">set of closest cd68(+)cd163(-) cells</TPO0000044>
-        <rdfs:label xml:lang="en">set of closest CD68(+)CD163(-) cells</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000142 -->
 
     <owl:Class rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000142">
@@ -12244,29 +12120,6 @@ In theory has specified value should not be used as Tissue within distance is no
         <x_1.1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-26T11:10:44Z</x_1.1:date>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">h&amp;e</TPO0000044>
         <rdfs:label xml:lang="en">H&amp;E</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000143 -->
-
-    <owl:Class rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000143">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
-                        <owl:hasValue rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174"/>
-        <x_1.1:creator rdf:resource="http://orcid.org/0000-0003-0078-2690"/>
-        <x_1.1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-29T10:21:20Z</x_1.1:date>
-        <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">set of closest cd34(+) cells</TPO0000044>
-        <rdfs:label xml:lang="en">set of closest CD34(+) cells</rdfs:label>
     </owl:Class>
     
 
@@ -12325,29 +12178,6 @@ In theory has specified value should not be used as Tissue within distance is no
     
 
 
-    <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000148 -->
-
-    <owl:Class rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000148">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
-                        <owl:hasValue rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000239"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174"/>
-        <x_1.1:creator rdf:resource="http://orcid.org/0000-0003-0078-2690"/>
-        <x_1.1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-29T09:42:27Z</x_1.1:date>
-        <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">set of closest cd3(+) cells</TPO0000044>
-        <rdfs:label xml:lang="en">set of closest CD3(+) cells</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000149 -->
 
     <owl:Class rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000149">
@@ -12356,52 +12186,6 @@ In theory has specified value should not be used as Tissue within distance is no
         <x_1.1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-26T11:10:36Z</x_1.1:date>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ihc brightfield</TPO0000044>
         <rdfs:label xml:lang="en">IHC Brightfield</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000150 -->
-
-    <owl:Class rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000150">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
-                        <owl:hasValue rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000230"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174"/>
-        <x_1.1:creator rdf:resource="http://orcid.org/0000-0003-0078-2690"/>
-        <x_1.1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-29T09:40:25Z</x_1.1:date>
-        <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">set of closest cd8(+) cells</TPO0000044>
-        <rdfs:label xml:lang="en">set of closest CD8(+) cells</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000151 -->
-
-    <owl:Class rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000151">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
-                        <owl:hasValue rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000233"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174"/>
-        <x_1.1:creator rdf:resource="http://orcid.org/0000-0003-0078-2690"/>
-        <x_1.1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-29T09:42:27Z</x_1.1:date>
-        <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">set of closest cd163(+) cells</TPO0000044>
-        <rdfs:label xml:lang="en">set of closest CD163(+) cells</rdfs:label>
     </owl:Class>
     
 
@@ -12434,35 +12218,6 @@ In theory has specified value should not be used as Tissue within distance is no
         <x_1.1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-26T07:53:54Z</x_1.1:date>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cy</TPO0000044>
         <rdfs:label xml:lang="en">cy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000154 -->
-
-    <owl:Class rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000154">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
-                        <owl:hasValue rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000231"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
-                <owl:someValuesFrom rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000135"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <x_1.1:creator rdf:resource="http://orcid.org/0000-0003-0078-2690"/>
-        <x_1.1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-29T09:42:27Z</x_1.1:date>
-        <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">set of closest cd68(+) cells</TPO0000044>
-        <rdfs:label xml:lang="en">set of closest CD68(+) cells</rdfs:label>
     </owl:Class>
     
 
@@ -12668,29 +12423,6 @@ In theory has specified value should not be used as Tissue within distance is no
     
 
 
-    <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000167 -->
-
-    <owl:Class rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000167">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
-                        <owl:hasValue rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000237"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174"/>
-        <x_1.1:creator rdf:resource="http://orcid.org/0000-0003-0078-2690"/>
-        <x_1.1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-29T09:42:27Z</x_1.1:date>
-        <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">set of closest cd3(+)cd8(-) cells</TPO0000044>
-        <rdfs:label xml:lang="en">set of closest CD3(+)CD8(-) cells</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000168 -->
 
     <owl:Class rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000168">
@@ -12782,18 +12514,6 @@ Can be evaluated by measuring the staining intensity following some staining ass
         <x_1.1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-26T07:59:34Z</x_1.1:date>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image data transformation</TPO0000044>
         <rdfs:label xml:lang="en">image data transformation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174 -->
-
-    <owl:Class rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000174">
-        <rdfs:subClassOf rdf:resource="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000145"/>
-        <x_1.1:creator rdf:resource="http://orcid.org/0000-0003-0078-2690"/>
-        <x_1.1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-29T09:40:01Z</x_1.1:date>
-        <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">set of closest cells</TPO0000044>
-        <rdfs:label xml:lang="en">set of closest cells</rdfs:label>
     </owl:Class>
     
 
@@ -14498,7 +14218,7 @@ Can be evaluated by measuring the staining intensity following some staining ass
         <x_1.1:creator rdf:resource="http://orcid.org/0000-0003-0078-2690"/>
         <x_1.1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-26T13:05:40Z</x_1.1:date>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micrometer</TPO0000044>
-        <rdfs:label>micrometer</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micrometer</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -14607,7 +14327,7 @@ Can be evaluated by measuring the staining intensity following some staining ass
         <x_1.1:creator rdf:resource="http://orcid.org/0000-0003-0078-2690"/>
         <x_1.1:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-26T13:16:36Z</x_1.1:date>
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liter</TPO0000044>
-        <rdfs:label>liter</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liter</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -15231,30 +14951,6 @@ Can be evaluated by measuring the staining intensity following some staining ass
     
 
 
-    <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000230 -->
-
-    <owl:NamedIndividual rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000230"/>
-    
-
-
-    <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000231 -->
-
-    <owl:NamedIndividual rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000231"/>
-    
-
-
-    <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000232 -->
-
-    <owl:NamedIndividual rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000232"/>
-    
-
-
-    <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000233 -->
-
-    <owl:NamedIndividual rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000233"/>
-    
-
-
     <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000234 -->
 
     <owl:NamedIndividual rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000234">
@@ -15280,18 +14976,6 @@ Can be evaluated by measuring the staining intensity following some staining ass
     
 
 
-    <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000236 -->
-
-    <owl:NamedIndividual rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000236"/>
-    
-
-
-    <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000237 -->
-
-    <owl:NamedIndividual rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000237"/>
-    
-
-
     <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000238 -->
 
     <owl:NamedIndividual rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000238">
@@ -15301,12 +14985,6 @@ Can be evaluated by measuring the staining intensity following some staining ass
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor (material entity)</TPO0000044>
         <rdfs:label xml:lang="en">tumor (material entity)</rdfs:label>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000239 -->
-
-    <owl:NamedIndividual rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000239"/>
     
 
 
@@ -22340,43 +22018,9 @@ Can be evaluated by measuring the staining intensity following some staining ass
     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
         <TPO0000044 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preferred label</TPO0000044>
     </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000141"/>
-            <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000143"/>
-            <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000148"/>
-            <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000150"/>
-            <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000151"/>
-            <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000154"/>
-            <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000167"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000141"/>
-            <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000148"/>
-            <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000150"/>
-            <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000151"/>
-            <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000154"/>
-            <rdf:Description rdf:about="http://www.definiens.com/ontologies/TissuePhenomicsOntology#TPO0000167"/>
-        </owl:members>
-    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
 
